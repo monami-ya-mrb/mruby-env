@@ -1,2 +1,6 @@
 script:
-  - "ruby run_test.rb all test"
+- ruby run_test.rb all test
+notifications:
+  hipchat:
+    rooms:
+      secure: D63L77kGD7QOawd/kaaxk+Yx8nWim3t6tcuOmqKE0ULEHTpcskShoGnd6M7lS3+Hkp7J5QLymAlBDvX4H8S20xmupD/wxUHYRDnIfavzyRiuw7nGpdKPfqv/BfKBucc5OToNarrVplWLcsT0NVzP5ocifAdzTR5DeLcazTZItKw=
